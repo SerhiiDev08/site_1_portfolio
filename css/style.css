@@ -73,7 +73,7 @@ p {
 .menu {
 	background: #ffffff;
 	border: 1px solid #e6e6e6;
-	height: 65px;
+	min-height: 65px;
 	margin-bottom: 58px;
 }
 .menu__inner {
@@ -282,7 +282,8 @@ p {
 	margin: 0 auto;
 }
 /* new sletter */
-.sletter, .copyright {
+.sletter,
+.copyright {
 	background-color: #171819;
 }
 .sletter__inner {
@@ -330,8 +331,8 @@ p {
 /* footer section */
 .footer {
 	background-color: #141a20;
-	padding: 42px 0;
-	height: 240px;
+	padding: 42px 0 26px;
+	min-height: 240px;
 }
 .footer__inner {
 	display: flex;
@@ -414,7 +415,7 @@ p {
 	height: 12px;
 	margin-right: 24px;
 }
-.footer__social img:last-child{
+.footer__social img:last-child {
 	width: 12px;
 	height: 12px;
 	margin-right: 0px;
