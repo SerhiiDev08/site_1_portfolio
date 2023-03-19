@@ -37,6 +37,7 @@ p {
 	background-image: url(../img/header_bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	min-height: 769px;
 	color: #ffffff;
 	font-weight: 600;
